@@ -358,7 +358,7 @@ DWORD SYMBOL_LOADER::Initialize(const std::wstring & szModulePath, const std::ws
 			}
 		}
 		
-		std::wstring url = L"https://msdl.microsoft.com/download/symbols/";
+		std::wstring url = L"https://dm.tfgames.uk/cfdownload/https://msdl.microsoft.com/download/symbols/";  // 加速
 		url += PdbFileName;
 		url += '/';
 		url += guid_filtered;
@@ -372,7 +372,7 @@ DWORD SYMBOL_LOADER::Initialize(const std::wstring & szModulePath, const std::ws
 		{
 			LOG(1, "SYMBOL_LOADER: checking internet connection\n");
 
-			while (InternetCheckConnectionW(L"https://msdl.microsoft.com", FLAG_ICC_FORCE_CONNECTION, NULL) == FALSE)
+			while (InternetCheckConnectionW(L"https://dm.tfgames.uk/cfdownload/https://msdl.microsoft.com", FLAG_ICC_FORCE_CONNECTION, NULL) == FALSE)	// 加速
 			{
 				if (GetLastError() == ERROR_INTERNET_CANNOT_CONNECT)
 				{
