@@ -8,12 +8,12 @@
 
 //Filenames
 
-#define GH_INJ_MOD_NAME64W L"GH Injector - x64.dll"
-#define GH_INJ_MOD_NAME86W L"GH Injector - x86.dll"
+#define GH_INJ_MOD_NAME64W L"TF  Injector - x64.dll"
+#define GH_INJ_MOD_NAME86W L"TF  Injector - x86.dll"
 #define GH_INJ_VERSIONW L"4.8"
 
-#define GH_INJ_MOD_NAME64A "GH Injector - x64.dll"
-#define GH_INJ_MOD_NAME86A "GH Injector - x86.dll"
+#define GH_INJ_MOD_NAME64A "TF  Injector - x64.dll"
+#define GH_INJ_MOD_NAME86A "TF  Injector - x86.dll"
 #define GH_INJ_VERSIONA "4.8"
 
 #ifdef _WIN64

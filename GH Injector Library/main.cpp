@@ -23,7 +23,7 @@ BOOL WINAPI DllMain(HINSTANCE hDll, DWORD dwReason, void * pReserved)
 		MMAP_NATIVE::ManualMap(s, nullptr, LAUNCH_METHOD::LM_NtCreateThreadEx, NULL, dummy_instance, 0, dummy_data);
 #endif
 
-		LOG(0, "GH Injector V%ls loaded\nImagebase = %p\n", GH_INJ_VERSIONW, hDll);
+		LOG(0, "TF  Injector V%ls loaded\nImagebase = %p\n", GH_INJ_VERSIONW, hDll);
 
 		g_hInjMod = hDll;
 
@@ -175,7 +175,7 @@ BOOL WINAPI DllMain(HINSTANCE hDll, DWORD dwReason, void * pReserved)
 			CloseHandle(g_hInterruptImport);
 		}
 
-		LOG(0, "GH Injector V%ls detached\n", GH_INJ_VERSIONW);
+		LOG(0, "TF  Injector V%ls detached\n", GH_INJ_VERSIONW);
 	}
 	
 	return TRUE;

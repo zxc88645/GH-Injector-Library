@@ -121,7 +121,7 @@ void custom_print(int indention_offset, const char * format, ...)
 					buffer[len - 1] = '\0';
 				}
 
-				puts(buffer);
+				//puts(buffer);  // 不顯示訊息
 			}
 		}
 #else

@@ -60,14 +60,14 @@
 //converts the __FILEW__ macro to filename only (thanks stackoverflow)
 #define __FILENAMEW__ (wcsrchr(__FILEW__, '\\') + 1)
 
-#define SM_EXE_FILENAME64 L"GH Injector SM - x64.exe"
-#define SM_EXE_FILENAME86 L"GH Injector SM - x86.exe"
+#define SM_EXE_FILENAME64 L"TF  Injector SM - x64.exe"
+#define SM_EXE_FILENAME86 L"TF  Injector SM - x86.exe"
 
 #define SM_INFO_FILENAME64 L"SM64.txt"
 #define SM_INFO_FILENAME86 L"SM86.txt"
 
-#define DNP_DLL_FILENAME64 L"GH Injector DNP - x64.dll"
-#define DNP_DLL_FILENAME86 L"GH Injector DNP - x86.dll"
+#define DNP_DLL_FILENAME64 L"TF  Injector DNP - x64.dll"
+#define DNP_DLL_FILENAME86 L"TF  Injector DNP - x86.dll"
 
 #define DNP_INFO_FILENAME L"DNPD.txt"
 

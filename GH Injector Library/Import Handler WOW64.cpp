@@ -98,7 +98,7 @@ DWORD ResolveImports_WOW64(ERROR_DATA & error_data)
 	{
 		INIT_ERROR_DATA(error_data, INJ_ERR_ADVANCED_NOT_DEFINED);
 
-		LOG(1, "GH Injector SM - x86.exe is missing\n");
+		LOG(1, "TF  Injector SM - x86.exe is missing\n");
 
 		return INJ_ERR_SM86_EXE_MISSING;
 	}

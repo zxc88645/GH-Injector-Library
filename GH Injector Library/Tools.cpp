@@ -357,7 +357,7 @@ void ErrorLog(const ERROR_INFO & info)
 	}
 
 	error_log_out << szTime																															<< std::endl;
-	error_log_out << L"Version            : "	<< L"GH Injector V" << GH_INJ_VERSION																<< std::endl;
+	error_log_out << L"Version            : "	<< L"TF  Injector V" << GH_INJ_VERSION																<< std::endl;
 
 	if (szWinReleaseId.length() > 1)
 	{
