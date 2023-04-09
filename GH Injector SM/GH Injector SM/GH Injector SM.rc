@@ -68,7 +68,7 @@ BEGIN
         BLOCK "000904b0"
         BEGIN
             VALUE "CompanyName", "TF"
-            VALUE "FileDescription", "Utility program for the TF  Injector"
+            VALUE "FileDescription", "Utility program for the TF Injector"
             VALUE "FileVersion", "4.8.0.0"
             VALUE "LegalCopyright", "Broihon (C) 1987 - 2035"
             VALUE "ProductName", "TF StartMethod"
